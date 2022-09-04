@@ -1,11 +1,11 @@
-@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;600&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;600&display=swap');
 * {
   margin: 0;
   padding: 0;
   list-style: none;
   text-decoration: none;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 html {
@@ -13,18 +13,18 @@ html {
 }
 
 body {
-  font-family: "Ubuntu", sans-serif;
+  font-family: 'Ubuntu', sans-serif;
 }
 
 .bg-image {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.2))), -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.2))), url(./Images/oil.jpg);
-  background-image: linear-gradient(rgba(0, 0, 0, 0.2)), linear-gradient(rgba(0, 0, 0, 0.2)), url(./Images/oil.jpg);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.2))), -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.2))), url(/Oil-Manufacturing/Images/oil.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2)), linear-gradient(rgba(0, 0, 0, 0.2)), url(/Oil-Manufacturing/Images/oil.jpg);
   height: 100vh;
   width: 100%;
   background-position: center;
   background-size: cover;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
   -webkit-transition: all 0.7s linear;
@@ -55,21 +55,21 @@ nav li a {
   position: relative;
 }
 nav a.links:is(:active, :visited, :link).active {
-  border-bottom: 4px solid #FFCB42;
+  border-bottom: 4px solid #ffcb42;
 }
 nav li a::before {
-  content: "";
+  content: '';
   position: absolute;
   width: 100%;
   height: 4px;
   border-radius: 4px;
-  background-color: #FFCB42;
+  background-color: #ffcb42;
   bottom: -6px;
   left: 0;
   -webkit-transform-origin: right;
-          transform-origin: right;
+  transform-origin: right;
   -webkit-transform: scaleX(0);
-          transform: scaleX(0);
+  transform: scaleX(0);
   -webkit-transition: -webkit-transform 0.3s ease-in-out;
   transition: -webkit-transform 0.3s ease-in-out;
   transition: transform 0.3s ease-in-out;
@@ -77,12 +77,12 @@ nav li a::before {
 }
 nav li a:hover::before {
   -webkit-transform-origin: left;
-          transform-origin: left;
+  transform-origin: left;
   -webkit-transform: scaleX(1);
-          transform: scaleX(1);
+  transform: scaleX(1);
 }
 nav li a.active {
-  border-bottom: 4px solid #FFCB42;
+  border-bottom: 4px solid #ffcb42;
 }
 
 .checkbtn {
@@ -100,7 +100,7 @@ nav li a.active {
 }
 
 .cta {
-  background-color: #FFB200;
+  background-color: #ffb200;
   color: black;
   margin: 0.8rem 0;
   padding: 0.8rem 1.1rem;
@@ -114,7 +114,7 @@ nav li a.active {
   transition: background-color 0.3s linear;
 }
 .cta:hover {
-  background-color: #FFCB42;
+  background-color: #ffcb42;
 }
 
 .header-description {
@@ -124,16 +124,16 @@ nav li a.active {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   place-items: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   gap: 1.2rem;
   text-transform: uppercase;
   color: white;
@@ -154,7 +154,7 @@ nav li a.active {
   text-align: center;
   width: 100%;
   padding: 1rem 0;
-  background-color: #F9F9C5;
+  background-color: #f9f9c5;
 }
 
 .about-us {
@@ -187,13 +187,13 @@ nav li a.active {
 }
 
 .services-image {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4))), -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4))), url(./Images/section-image.png);
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4)), linear-gradient(rgba(0, 0, 0, 0.4)), url(./Images/section-image.png);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4))), -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4))), url(/Oil-Manufacturing/Images/section-image.png);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4)), linear-gradient(rgba(0, 0, 0, 0.4)), url(/Oil-Manufacturing/Images/section-image.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   background-attachment: fixed;
   -webkit-transition: all 0.7s linear;
   transition: all 0.7s linear;
@@ -205,11 +205,11 @@ nav li a.active {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   gap: 5rem;
   color: white;
 }
@@ -258,25 +258,25 @@ nav li a.active {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 .cards .card {
   width: 70%;
   background-color: white;
-  background-image: url(./Images/style.png);
+  background-image: url(/Oil-Manufacturing/Images/style.png);
   background-position: center;
   background-size: cover;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   margin: 0 1rem;
   padding: 1.5rem 1rem;
   border-radius: 12px;
   -webkit-box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
-          box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
   -webkit-transition: -webkit-transform 0.3s linear;
   transition: -webkit-transform 0.3s linear;
   transition: transform 0.3s linear;
@@ -284,13 +284,13 @@ nav li a.active {
 }
 .cards .card:hover {
   -webkit-transform: scale(1.03);
-          transform: scale(1.03);
+  transform: scale(1.03);
 }
 .cards .card .products-image {
   width: 200px;
   height: auto;
   -webkit-filter: drop-shadow(5px 5px 5px black);
-          filter: drop-shadow(5px 5px 5px black);
+  filter: drop-shadow(5px 5px 5px black);
 }
 .cards .card p {
   text-align: justify;
@@ -309,11 +309,11 @@ nav li a.active {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   margin: 5rem 0;
   text-align: center;
 }
@@ -325,7 +325,7 @@ nav li a.active {
 }
 
 .socials {
-  background-color: #FFCB42;
+  background-color: #ffcb42;
   padding: 3rem;
 }
 .socials .social-description {
@@ -342,11 +342,11 @@ nav li a.active {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   gap: 1.4rem;
   margin: 1rem 0;
 }
@@ -360,13 +360,13 @@ nav li a.active {
 .socials .social-container i:hover {
   cursor: pointer;
   -webkit-transform: rotateY(360deg);
-          transform: rotateY(360deg);
+  transform: rotateY(360deg);
 }
 
 footer {
   color: white;
   padding: 4rem;
-  background-color: #1C0A00;
+  background-color: #1c0a00;
 }
 footer .footer-cards {
   display: -webkit-box;
@@ -380,14 +380,14 @@ footer .footer-card {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   width: 60%;
 }
 footer .footer-card h1 {
@@ -408,11 +408,11 @@ footer .footer-card .second-para {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   padding-top: 4rem;
 }
 .company-attribute .social-footer i {
@@ -426,5 +426,5 @@ footer .footer-card .second-para {
 .company-attribute .social-footer i:hover {
   cursor: pointer;
   -webkit-transform: rotateY(360deg);
-          transform: rotateY(360deg);
-}/*# sourceMappingURL=main.css.map */
+  transform: rotateY(360deg);
+} /*# sourceMappingURL=main.css.map */

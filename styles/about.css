@@ -1,18 +1,18 @@
 .cards {
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   gap: 1.3rem;
   margin: 1rem 0;
 }
 .cards .card {
-  background-image: url(./Images/style.png);
+  background-image: url(/Oil-Manufacturing/Images/style.png);
   background-position: center;
   background-size: cover;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   width: 400px;
   background-color: white;
 }
@@ -26,7 +26,7 @@
 }
 .cards .card i:hover {
   -webkit-transform: rotate(360deg);
-          transform: rotate(360deg);
+  transform: rotate(360deg);
 }
 .cards .card h1 {
   text-align: left;
@@ -42,4 +42,4 @@
 
 .about-us h2 {
   text-decoration: underline;
-}/*# sourceMappingURL=about.css.map */
+} /*# sourceMappingURL=about.css.map */
