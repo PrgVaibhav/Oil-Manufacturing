@@ -1,0 +1,21 @@
+.cards {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 1.3rem;
+  margin: 1rem 0;
+}
+.cards .card {
+  width: 400px;
+  background-color: white;
+}
+
+.about-us h1 {
+  text-decoration: underline;
+}
+
+.products-header h1 {
+  margin: 1rem 0;
+}/*# sourceMappingURL=products.css.map */

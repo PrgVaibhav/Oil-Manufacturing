@@ -1,0 +1,44 @@
+$about-section : #F9F9C5;
+.cards{
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1.3rem;
+    margin: 1rem 0;
+    .card {
+        background-image: url(/Images/style.png);
+        background-position: center;
+        background-size: cover;
+        object-fit: cover;
+        width: 400px;
+        background-color: white;
+        i{
+            font-size: 3rem;
+            margin-bottom: .9rem;
+            transition: transform  1s ease;
+            &:hover{
+                transform: rotate(360deg);
+            }
+        }
+        h1{
+            text-align: left;
+            margin-bottom: .9rem;
+            text-transform: capitalize;
+        }
+
+    }
+}
+
+.offer{
+    h1{
+        font-size: 2rem;
+        margin: 1.5rem 0;
+        text-decoration: underline;
+    }
+}
+
+.about-us{
+    h2{
+        text-decoration: underline;
+        
+    }
+}

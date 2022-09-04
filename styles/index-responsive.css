@@ -1,0 +1,205 @@
+@media (min-width: 851px) and (max-width: 1024px) {
+  .cards {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 1rem;
+  }
+  .cards .card {
+    width: 90%;
+  }
+}
+@media (max-width: 850px) {
+  .nav-lists li a {
+    display: block;
+  }
+  .header-description h1 {
+    font-size: 4.5rem;
+  }
+  .header-description h3 {
+    font-size: 1.3rem;
+  }
+  .checkbtn {
+    display: block;
+  }
+  ul {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6))), -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)));
+    background: linear-gradient(rgba(0, 0, 0, 0.6)), linear-gradient(rgba(0, 0, 0, 0.6));
+    top: 80px;
+    left: -100%;
+    text-align: center;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+  }
+  nav ul li {
+    display: block;
+  }
+  #check:checked ~ ul {
+    left: 0;
+  }
+  .about-us {
+    width: 70%;
+  }
+  .about-us h1 {
+    font-size: 2rem;
+  }
+  .about-us p {
+    font-size: 1.2rem;
+    text-align: justify;
+  }
+  .services {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .services-description {
+    width: 100%;
+  }
+  .service-tag {
+    width: 100%;
+  }
+  .service-tag h3 {
+    font-size: 2rem;
+  }
+  .cards {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 1rem;
+  }
+  .cards .card {
+    width: 80%;
+    margin: 1rem;
+  }
+  .products-footer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .products-footer span {
+    font-size: 1.2rem;
+  }
+  .products-footer .products-btn {
+    margin-top: 1rem;
+  }
+  .products-footer .footer-card {
+    margin: 1rem 0;
+  }
+}
+@media (max-width: 468px) {
+  header {
+    height: 80%;
+  }
+  .bg-image {
+    height: 80vh;
+  }
+  .header-description h1 {
+    font-size: 3rem;
+  }
+  .header-description h3 {
+    font-size: 1.2rem;
+  }
+  .about-us {
+    width: 90%;
+  }
+  .about-us h1 {
+    font-size: 1.8rem;
+  }
+  .about-us p {
+    font-size: 1.1rem;
+  }
+  .services {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .services-image {
+    padding: 3rem;
+  }
+  .services-description {
+    width: 100%;
+  }
+  .services-card p {
+    font-size: 1.1rem;
+  }
+  .service-tag {
+    width: 100%;
+  }
+  .service-tag h3 {
+    font-size: 1.8rem;
+  }
+  .cards {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .cards .card {
+    width: 90%;
+    margin: 1rem;
+  }
+  .products-footer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .products-footer span {
+    font-size: 1.2rem;
+  }
+  .products-footer .products-btn {
+    margin-top: 1rem;
+  }
+  footer .footer-cards {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  footer .footer-card {
+    width: 100%;
+  }
+  .company-attribute {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .company-attribute span {
+    padding: 1rem 0;
+  }
+  .contact-section {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+@media (max-width: 280px) {
+  .header-description h1 {
+    font-size: 2rem;
+  }
+  .header-description h3 {
+    font-size: 1rem;
+  }
+  .about-us h1 {
+    font-size: 1.5rem;
+  }
+  .services-card h4 {
+    font-size: 1rem;
+  }
+  .services-card p {
+    font-size: 0.8rem;
+  }
+  .service-tag h3 {
+    font-size: 1.2rem;
+  }
+}/*# sourceMappingURL=index-responsive.css.map */
