@@ -8,7 +8,7 @@
   margin: 1rem 0;
 }
 .cards .card {
-  background-image: url(../Images/style.png);
+  background-image: url(./Images/style.png);
   background-position: center;
   background-size: cover;
   -o-object-fit: cover;
