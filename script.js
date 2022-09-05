@@ -1,9 +1,9 @@
 let activePage = window.location.pathname;
 
-// const subDirectory = activePage.replace(/\.tld\/([^/]+)\//, '');
+// regex for 1st subdirectory in url
+let regex = /\/([^\/]*)\//;
 
-const subDirectory = '/Oil-Manufacturing/';
-activePage = activePage.replace(subDirectory, '/');
+activePage = activePage.replace(regex, '/');
 
 const navLinks = document.querySelectorAll('nav a');
 

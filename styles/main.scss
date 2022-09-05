@@ -60,6 +60,7 @@ nav{
         color: white;
         font-size: $small-font;
         position: relative;
+        letter-spacing: 2px;
     }
 
     a.links:is(:active, :visited, :link).active{
@@ -95,7 +96,7 @@ nav{
     color: white;
     float: right;
     line-height: 80px;
-    margin-right: 40px;
+    margin-right: 20px;
     cursor: pointer;
     display: none;
 }
@@ -104,14 +105,14 @@ nav{
     display: none;
 }
 
-
 .cta{
     background-color: $primary-yellow;
     color: black;
     margin: .8rem 0;
     padding: .8rem 1.1rem;
     border-radius: 20px;
-    font-weight: 600;
+    font-weight: 500;
+    letter-spacing: 2px;
     font-size: 1rem;
     cursor: pointer;
     outline: none;
@@ -359,7 +360,7 @@ footer{
     color: white;
     padding: 4rem;
     background-color: $footer-color;
-
+    text-align: center;
     .footer-cards{
         display: flex;
         gap: 1.2rem;
@@ -383,6 +384,13 @@ footer{
         }
         .second-para{
             margin-top: 3rem;
+        }
+        a{
+            color: white;
+            transition: all .3s linear;
+            &:hover{
+                text-decoration: underline;
+            }
         }
     }
 }
