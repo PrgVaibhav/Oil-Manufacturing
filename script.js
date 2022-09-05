@@ -1,5 +1,5 @@
 let activePage = window.location.pathname;
-
+// COmment
 // regex for 1st subdirectory in url
 let regex = /\/([^\/]*)\//;
 

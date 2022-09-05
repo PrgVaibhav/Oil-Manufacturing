@@ -35,7 +35,7 @@ body{
     background-attachment: fixed;
     transition: all .7s linear;
 }
-
+// Comment
 nav{
     width: 100%;
     .logo{
@@ -63,7 +63,7 @@ nav{
         letter-spacing: 2px;
     }
 
-    a.links:is(:active, :visited, :link).active{
+    a:is(:active, :visited, :link).active{
         border-bottom: 4px solid $secondary-yellow;
     }
 
